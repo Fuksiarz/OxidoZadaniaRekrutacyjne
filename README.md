@@ -93,3 +93,9 @@ pip install -r requirements.txt
 4. Uruchom program:
 
 python main.py
+
+
+## Ważne
+Wysłałem do Pana Radosława na maila plik .env, który należy umieścić w folderze z projektem. Jeśli osoba sprawdzająca zadanie nie dostała pliku to proszę utworzyć plik .env w którym znajdzie się:
+
+OPENAI_API_KEY=klucz_open_api
