@@ -1,3 +1,8 @@
+# Ważne
+Wysłałem do Pana Radosława na maila plik .env, który należy umieścić w folderze z projektem. Jeśli osoba sprawdzająca zadanie nie dostała pliku to proszę utworzyć plik .env w którym znajdzie się:
+
+OPENAI_API_KEY=klucz_open_api
+
 # Opis działania aplikacji
 
 Na początku ładujemy zmienne środowiskowe. Otwieramy plik trescArtykulu.txt, który posiada treść artykułu z zadania do wykonania i przypisujemy ją do zmiennej. Aplikacja pobiera klucz api od OpenAI znajdujący się w pliku z zależnościami ".env". Działanie te ma na celu oddzielić kod od danych wrażliwych, których nie chcemy udostepniać w repozytorium. Następnie określamy zasady według których chcemy aby sztuczna inteligencja modyfikowała artykuł, który dołączamy i przypisujemy całość do zmiennej. Następnym krokiem jest konfiguracja modelu sztucznej inteligencji, który przyjmujme nasz wcześniej przypisany do zmiennej tekst artykułu wraz z wytycznymi. Następnie wykonujemy zapytanie, otwieramy plik artykul.html i zapisujemy w nim odpowiedź.
@@ -93,9 +98,3 @@ pip install -r requirements.txt
 4. Uruchom program:
 
 python main.py
-
-
-## Ważne
-Wysłałem do Pana Radosława na maila plik .env, który należy umieścić w folderze z projektem. Jeśli osoba sprawdzająca zadanie nie dostała pliku to proszę utworzyć plik .env w którym znajdzie się:
-
-OPENAI_API_KEY=klucz_open_api
