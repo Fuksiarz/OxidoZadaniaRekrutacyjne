@@ -19,9 +19,10 @@ Poniżej znajduje się artykuł. Przetwórz treść i zwróć ją w formacie HTM
 - Myślę, że zdjęcie poniżej nagłówków przedstawiających wizualizację treści do kolejnego nagłówka będzie odpowiednim miejscem ale zdecyduj co będzie lepsze.
 - Użyj znacznika <img> z src="image_placeholder.jpg" i dodaj atrybut alt z opisem obrazu. Tekst alt powinien być jasnym opisem koncepcji obrazu, który odpowiada kontekstowi artykułu.
 - Dodaj podpisy pod obrazami, używając odpowiednich znaczników HTML, takich jak <figcaption>.
-- chciałbym aby figcaption i img były zamknięte w tagach figure
+- chciałbym aby figcaption i img były zamknięte w tagach figure.
 - Nie dołączaj kodu CSS ani JavaScript, wyłącznie treść do umieszczenia pomiędzy znacznikami <body> i </body>.
-
+- nie dodawaj znaczników <html>, <body>, <head>. 
+- zamknij cały artykuł w znacznikach <div>.
 Artykuł:
 {article_content}
 """
