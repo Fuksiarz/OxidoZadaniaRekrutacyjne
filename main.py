@@ -31,7 +31,6 @@ Artykuł:
     completion = client.chat.completions.create(
         model="gpt-4",  
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
         ]
     )
