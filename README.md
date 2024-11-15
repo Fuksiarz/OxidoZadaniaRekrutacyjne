@@ -23,9 +23,12 @@ Uruchom pobrany plik instalacyjny.
 
 W oknie instalatora upewnij się, że zaznaczone jest pole "Add Python to PATH" (dzięki temu Python będzie dostępny z wiersza poleceń) oraz "Install pip" żeby zainstalować menadżer pakietów pip.
 Kliknij Install Now.
+
 Po zakończeniu instalacji kliknij Close.
+
 c) Sprawdź wersję:
 Otwórz Wiersz Poleceń (Command Prompt).
+
 Wpisz poniższą komendę, aby sprawdzić zainstalowaną wersję Pythona:
 
 python --version
