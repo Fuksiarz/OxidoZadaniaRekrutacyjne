@@ -10,12 +10,17 @@ Menedżer pakietów pip.
 # Jeśli nie masz powyższych to:
 
 1. Windows
+   
 a) Pobierz instalator:
 Przejdź na stronę oficjalnego Pythona: https://www.python.org/downloads/
+
 Kliknij na wersję Pythona, którą chcesz zainstalować (np. 3.8 lub 3.11).
+
 Pobierz plik instalacyjny odpowiedni dla Twojego systemu (Windows 64-bit lub 32-bit).
+
 b) Zainstaluj Python:
 Uruchom pobrany plik instalacyjny.
+
 W oknie instalatora upewnij się, że zaznaczone jest pole "Add Python to PATH" (dzięki temu Python będzie dostępny z wiersza poleceń) oraz "Install pip" żeby zainstalować menadżer pakietów pip.
 Kliknij Install Now.
 Po zakończeniu instalacji kliknij Close.
